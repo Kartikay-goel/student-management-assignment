@@ -109,5 +109,40 @@ node index.js
 - `PUT /api/students/:id` - Update student details by ID
 - `DELETE /api/students/:id` - Delete a student by ID
 
+
+---
+
+## 📸 Postman Testing & API Screenshots
+
+### 1. User Registration (`POST /api/auth/register`)
+![User Registration](screenshots/1.jpg)
+
+### 2. User Login & Token Generation (`POST /api/auth/login`)
+![User Login](screenshots/2.jpg)
+
+### 3. Create New Student (`POST /api/students`)
+![Create Student](screenshots/3.jpg)
+
+### 4. Get All Students (`GET /api/students`)
+![Get All Students](screenshots/4.jpg)
+
+### 5. Get Students with Pagination (`GET /api/students?page=1&limit=2`)
+![Pagination Test](screenshots/5.jpg)
+
+### 6. Search Student by Name (`GET /api/students?search=Kartikay`)
+![Search Test](screenshots/6.jpg)
+
+### 7. Get Student by ID (`GET /api/students/:id`)
+![Get Student By ID](screenshots/7.jpg)
+
+### 8. Update Student by ID (`PUT /api/students/:id`)
+![Update Student](screenshots/8.jpg)
+
+### 9. Delete Student by ID (`DELETE /api/students/:id`)
+![Delete Student](screenshots/9.jpg)
+
+---
+
+
 ## Author
 Kartikay Goel
