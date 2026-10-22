@@ -61,11 +61,14 @@ A secure and robust backend Student Management System built with Node.js, Expres
 ├── package.json           # Dependencies and scripts
 └── package-lock.json      # Locked versions of dependencies
 
+```
+
 ## Getting Started & Installation
 
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/Kartikay-goel/student-management-assignment.git
+
 cd student-management-assignment
 ```
 
